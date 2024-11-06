@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster+Two&display=swap');
+
+body {
+    background-color: #E4E0E1;
+}
+
+img {
+    width: 619px;
+    height: 580px;
+    object-fit: cover;
+    margin: 0 20px 0px 20px;
+}
+
+#title h1 {
+    font-size: 50px;
+    font-family: "Lobster Two", sans-serif;
+}
+
+#title p {
+    font-size: 16px;
+}
+
+#title h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 28px;
+}
+
+#title {
+    font-size: 25px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    padding: 2px 10px 10px;
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif ;
+    border: 9px solid;
+    max-width: 80%;
+    line-height: 3;
+    margin: auto;
+}
+
+.description div {
+    line-height: normal;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.ingredients > ul > li {
+    font-size: 18px;
+    line-height: 2.5;
+}
+
+.ingredients {
+    background-color: #D6C0B3;
+}
+
+.ingredients > h3 {
+    margin-left: 35px;
+    font-family: "Lobster Two", sans-serif;
+    font-size: 30px;  
+}
+
+.steps > ol > li {
+    font-size: 18px;
+    line-height: 2.5;
+}
+
+.steps {
+    background-color: #AB886D;
+}
+
+.steps > h3 {
+    margin-left: 35px;
+    font-family: "Lobster Two", sans-serif;
+    font-size: 30px;
+}
+
+#both {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.comida {
+    font-family: 'Cabin', sans-serif;
+}
+
+.comida-2 {
+    font-family: 'Cabin', sans-serif;
+}
+
+#choco {    
+    text-decoration: none;
+}
+
+#choco:hover{
+    background-color: #493628;
+    color: white;
+}
+
+footer {
+    font-family: 'Cabin', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
